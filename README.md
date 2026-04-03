@@ -12,7 +12,7 @@
 | Password Hashing | BCrypt |
 | Database     | MySQL 8 |
 | DB Driver    | MySqlConnector |
-| Documentation | Swagger / OpenAPI |
+
 
 ---
 ## Project Structure
@@ -77,7 +77,7 @@ cd frontend
 npm install
 npm run dev
 
-App: http://localhost:5173
+
 
 ---
 
@@ -152,7 +152,7 @@ DELIMITER ;
 ## Security
 
 - BCrypt password hashing
-- JWT authentication (HMAC-SHA256)
+- JWT authentication 
 - Token expiration handling
 - Parameterized queries
 - Protected routes using authorization middleware
