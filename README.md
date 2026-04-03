@@ -8,7 +8,7 @@
 | Frontend     | React 18, Vite, React Router v6 |
 | HTTP Client  | Axios |
 | Backend      | .NET 8 Web API |
-| Authentication | JWT (HMAC-SHA256) |
+| Authentication | JWT  |
 | Password Hashing | BCrypt |
 | Database     | MySQL 8 |
 | DB Driver    | MySqlConnector |
