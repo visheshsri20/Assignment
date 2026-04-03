@@ -15,4 +15,6 @@ obj/
 *.user
 *.suo
 *.log
-
+database/
+*.AuthSystem.postman_collection
+*.{Controllers,Models,Services,Data,Middleware}
