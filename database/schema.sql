@@ -1,0 +1,15 @@
+-- Auth System Database Schema
+CREATE DATABASE IF NOT EXISTS authdb;
+USE authdb;
+
+CREATE TABLE IF NOT EXISTS Users (
+    Id INT AUTO_INCREMENT PRIMARY KEY,
+    Name VARCHAR(100) NOT NULL,
+    Email VARCHAR(100) UNIQUE NOT NULL,
+    PasswordHash VARCHAR(255) NOT NULL,
+    Role VARCHAR(20) DEFAULT 'User',
+    CreatedAt DATETIME DEFAULT CURRENT_TIMESTAMP
+);
+
+-- Index for faster email lookups
+CREATE INDEX idx_email ON Users(Email);
