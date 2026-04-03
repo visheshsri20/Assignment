@@ -1,4 +1,4 @@
--- Auth System Database Schema
+
 CREATE DATABASE IF NOT EXISTS authdb;
 USE authdb;
 
@@ -11,5 +11,5 @@ CREATE TABLE IF NOT EXISTS Users (
     CreatedAt DATETIME DEFAULT CURRENT_TIMESTAMP
 );
 
--- Index for faster email lookups
+
 CREATE INDEX idx_email ON Users(Email);
